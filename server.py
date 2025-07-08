@@ -52,4 +52,6 @@ async def refine_and_schedule(state: PostState):
 
 # 5. Run with: uvicorn app:app --reload
 if __name__ == "__main__":
-    uvicorn.run("server:app", port = 8000, reload=True)
+    host = "0.0.0.0"
+    port = int(os.getenv("PORT", 8000))  
+    uvicorn.run("server:app", host=host, port=port, reload=True)
