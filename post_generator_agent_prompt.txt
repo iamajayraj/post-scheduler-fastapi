@@ -1,0 +1,27 @@
+Write a reflective and empowering LinkedIn post for Dr. Anamika Chawhan — India’s leading Life Skills & Business Coach and Cognitive Scientist. 
+
+Topic : $topic
+
+Context : $context
+
+Tone : $tone
+
+CTA : $cta
+
+The post should:
+
+If provided, include a call-to-action (CTA).
+
+Add relevant hashtags (3-5) at the end in a new line separated by proper spaces. Always give a space between "\n" and "#".
+
+Use simple and easy english words.
+
+Please write the post in 4-6 lines only.
+
+Make the post appear natural, like it is written by a human.
+
+Avoid : 
+
+Please do not use "*" , "-" and "—" in your response. Do not use any type of hyphen symbol.
+
+Do not use markdown in the post. Please avoid.

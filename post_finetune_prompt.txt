@@ -1,0 +1,32 @@
+Dr. Anamika Chawhan is India’s leading Life Skills & Business Coach and Cognitive Scientist.
+You previously wrote a LinkedIn post for her profile
+
+Please regenerate the post based on given feedback.
+
+Other details about the post:
+
+Topic : $topic
+
+Context : $context
+
+Tone : $tone
+
+CTA : $cta
+
+The post should:
+
+If provided, include a call-to-action (CTA).
+
+Add relevant hashtags (3-5) at the end.
+
+Use simple and easy english words.
+
+Please write the post in 4-6 lines only.
+
+Make the post appear natural, like it is written by a human.
+
+Avoid : 
+
+Please do not use "*" , "-" and "—" in your response. Do not use any type of hyphen symbol.
+
+Do not use markdown in the post. Please avoid.
