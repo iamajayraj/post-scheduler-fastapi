@@ -6,6 +6,8 @@ import uvicorn
 
 # import your graph‐building functions
 from main import build_generate_graph, build_feedback_graph
+from fastapi.middleware.cors import CORSMiddleware
+
 
 # 1. Define a Pydantic model mirroring your TypedDict
 class PostState(BaseModel):
@@ -24,6 +26,13 @@ class PostState(BaseModel):
 
 # 2. Create FastAPI app and compile graphs once at startup
 app = FastAPI(title="LangGraph as FastAPI")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Or restrict to your deployed frontend origin
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 generate_graph = build_generate_graph()
 feedback_graph = build_feedback_graph()
