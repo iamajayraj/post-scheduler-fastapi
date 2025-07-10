@@ -31,6 +31,7 @@ class PostState(TypedDict, total=False):
     output_post: str
     feedback: str
     approved: bool
+    platform: str
     messages: List[Any]  # List[BaseMessage]
 
 
