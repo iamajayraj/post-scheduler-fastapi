@@ -22,6 +22,7 @@ class PostState(BaseModel):
     output_post: Optional[str] = None
     feedback: Optional[str] = None
     approved: Optional[bool] = None
+    platform: str
     messages: Optional[List[Any]] = None
 
 # 2. Create FastAPI app and compile graphs once at startup
