@@ -67,7 +67,7 @@ def ai_refine(state: PostState) -> PostState:
         }
 
         res = requests.post(
-        f"{supa}/rest/v1/Anamika-Meta-Table",
+        f"{supa}/rest/v1/scheduled-posts",
         json=payload,
         headers={
             "apikey": key,
