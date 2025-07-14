@@ -32,6 +32,7 @@ class PostState(TypedDict, total=False):
     feedback: str
     approved: bool
     platform: str
+    linkedin_post_on: str
     messages: List[Any]  # List[BaseMessage]
 
 
@@ -64,6 +65,8 @@ def ai_refine(state: PostState) -> PostState:
         "cta": state["cta"],
         "post": state["output_post"],
         "status": state["status"],
+        "platform":state["platform"],
+        "linkedin_post_on":state["linkedin_post_on"]
         }
 
         res = requests.post(
