@@ -23,6 +23,7 @@ class PostState(BaseModel):
     feedback: Optional[str] = None
     approved: Optional[bool] = None
     platform: str
+    linkedin_post_on: str
     messages: Optional[List[Any]] = None
 
 # 2. Create FastAPI app and compile graphs once at startup
